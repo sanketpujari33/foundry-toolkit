@@ -5,7 +5,7 @@
   "description": "Static changelog site generated from WHATS_NEW.md and published to GitHub Pages.",
   "type": "module",
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node init && node build.mjs"
   },
   "dependencies": {
     "marked": "^15.0.7"
